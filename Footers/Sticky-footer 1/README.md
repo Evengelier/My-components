@@ -1,0 +1,1 @@
+Első Footer lehetséges megoldás
