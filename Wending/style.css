@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* CÍMSOR */
+
+
+.hatter {
+  background-color: hsla(100,0%,0%,.6);
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.hatterkep {
+  display: table;
+  background-image:   url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: 68% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.focim {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.felirat {
+  display: inline-block;
+  padding: 5% 10%;
+  background-color: rgba(0,0,0,0.3)
+}
+
+header div h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 10vw;
+    color: #d2ba87;
+    padding: 2rem;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+header div p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3.5vw;
+    color: white;
+}
+
+/* Helyszínek */
+
+section {
+  background-image: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png");
+  text-align: center;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+section h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 10vw;
+    color: #444349;
+    padding: 2rem;
+}
+
+section div h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 6vw;
+    color: #444349;
+    padding: 1.5rem;
+    font-weight: bold;
+    
+}
+
+section div p {
+    font-family: 'Muli', serif;
+    font-size: 3.5vw;
+    color: #444349;
+    font-weight: bold;
+    padding: 5px;
+}
+
+section div img {
+  width: 25%;
+  padding: 10px;
+}
+
+.vonal {
+    display: inline-block;
+    background-color: #444349;
+    width: 25%;
+    height: 3px;
+    margin: 40px auto;
+}
