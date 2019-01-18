@@ -69,6 +69,7 @@ section h2 {
     font-size: 10vw;
     color: #444349;
     padding: 2rem;
+    font-weight: bold;
 }
 
 section div h3 {
@@ -100,3 +101,47 @@ section div img {
     height: 3px;
     margin: 40px auto;
 }
+
+/* Programok... */
+
+.programs {
+  background-color: rgba(0,0,0,0.6);
+  overflow: hidden;
+}
+
+.programs h2 {
+  color: #d2ba87;
+  font-weight: bold;
+}
+
+.programs p {
+  color: #d2ba87;
+}
+
+.dolt {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.left {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+/* Ajándékok... */
+
+.gifts p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3.5vw;
+}
+
+/* Kérdések és Válaszok... */
+
+.programs h3 {
+    color: #d2ba87;
+}
+
+.vastag {
+    font-weight: bold;
+}
+
